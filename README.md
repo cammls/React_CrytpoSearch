@@ -21,6 +21,7 @@ Use the public API of [CoinMarketCap](https://coinmarketcap.com/api/documentatio
 
 ## Note
 
+- Use TypeScript and React
 - Use React Hooks instead of Redux
 - Prettier / Eslint should show no errors
 - Please take no longer than 6-8 hours to solve the task
