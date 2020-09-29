@@ -29,7 +29,7 @@ Use the public API of [CoinGecko](https://www.coingecko.com/en/api) to allow use
 - You can use any npm package to help you
 - You don't need to worry about design and making it look great but it should be functional.
 - If you experience any issue during the task, feel free to contact your recruiting manager directly via e-mail
-- There are no right or wrong answers, this is an opportunity to know each other better in a technical way. So, now have fun!
+- There are no right or wrong answers, this is an opportunity to know each other better in a technical way.
 
 ## How to submit
 
