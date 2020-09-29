@@ -2,7 +2,7 @@
 
 Welcome to the Cozero coding challenge!
 
-Our idea is to offer you a fun and practical challenge so that we can later we can use it as a conversation starter to go over your thought process.
+Our idea is to offer you a fun and practical challenge so that we can later can use it as a conversation starter to go over your thought process.
 
 In this repo you find the boilerplate for a Create React App + Typescript project to help you get started.
 
