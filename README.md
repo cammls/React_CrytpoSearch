@@ -31,4 +31,7 @@ Use the public API of [CoinMarketCap](https://coinmarketcap.com/api/documentatio
 
 ## How to submit
 
-- Create a merge request in this repo with your changes
+1. Clone this repo locally
+2. Make your changes that solve the task
+3. Create a merge request in this repo with your changes
+4. Email us to setup a call to discuss your solution
