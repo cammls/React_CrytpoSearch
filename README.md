@@ -8,28 +8,28 @@ In this repo you find the boilerplate for a Create React App + Typescript projec
 
 ## Challenge
 
-Use the public API of [CoinMarketCap](https://coinmarketcap.com/api/documentation/v1) to display a table with the latest top 100 cryptocurrencies. You can use the Listings Latest GET call `/v1/cryptocurrency/listings/latest`.
+Use the public API of [CoinGecko](https://www.coingecko.com/en/api) to allow users to query information about a specific cryptocurrency.
 
 ### Acceptance criteria:
 
-- Order them from descending market cap rank
-- Only show the cryptocurrencies that were added to the system on a work week day (Monday to Friday)
-- In the cryptocurrency row display the marketcap rank, name, USD price, symbol, 24h percentual price change and other fields you find important
-- Add style to the cryptocurrency row that highlights if it had a growth or a decline in its price in the past 24h (i.e. mark it red or green accordingly)
-- Paginate the results and allow the user to change page for each 20 results
-- On clicking a row, navigate to a new page that shows a line graph with the selected cryptocurrency USD price fluctuation in the past year. You can find an example [here](https://coinmarketcap.com/currencies/ethereum/)
+- Have a text input field and a submit button where a user can type a cryptocurrency name and submit to search.
+- On clicking submit, fetch the cryptocurrency that match the name in the text input. You can use the coins GET call `/coins/{id}`.
+- Display a spinner while the user is waiting for the results
+- Display its most relevant data to the user (i.e. logo, marketcap rank, name, current USD price, symbol, 24h percentual price change). You can use a table or any other data display component you find easier.
+- Add style that highlights if it had a growth or a decline in its price in the past 24h (i.e. mark it red or green accordingly)
+- Save the past user queries and display it in a list of "Past searches" next to the input box
+- Show a line graph with the selected cryptocurrency USD price fluctuation in the past 7 days. You can find an example [here](https://www.coingecko.com/en/coins/ethereum). You can find data for this graph in the GET `/coins/{id}/market_chart` call
 
 ## Note
 
 - Use TypeScript and React
 - Use React Hooks instead of Redux
 - Prettier / Eslint should show no errors. You can edit the linter rules but you should have a good reason for it.
-- Please take no longer than 6-8 hours to solve the task
+- This should not take more than 6-8 hours to solve, please do not spend more than that on the task
 - You can use any npm package to help you
-- You can use our CoinMarketCap Token `95b3c5a2-51e3-429f-9e95-47184ef2522a` or create your own by signing up for free
-- Beautiful design is not important for this task so you don't need to worry about things looking great
-- You do not need to implement auth
+- You don't need to worry about design and making it look great but it should be functional.
 - If you experience any issue during the task, feel free to contact your recruiting manager directly via e-mail
+- There are no right or wrong answers, this is an opportunity to know each other better in a technical way. So, now have fun!
 
 ## How to submit
 
