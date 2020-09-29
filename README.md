@@ -33,5 +33,4 @@ Use the public API of [CoinMarketCap](https://coinmarketcap.com/api/documentatio
 
 1. Clone this repo locally
 2. Make your changes that solve the task
-3. Create a merge request in this repo with your changes
-4. Email us to setup a call to discuss your solution
+3. Zip compress your project with the solution and send it via email to your recruiting manager. You will be contacted to setup a follow-up call
