@@ -12,7 +12,7 @@ Use the public API of [CoinGecko](https://www.coingecko.com/en/api) to allow use
 
 ### Acceptance criteria:
 
-- Have a text input field and a submit button where a user can type a cryptocurrency name and submit to search.
+- Have a text input field and a submit button where a user can type a cryptocurrency id (eg. bitcoin) and submit to search.
 - On clicking submit, fetch the cryptocurrency that match the name in the text input. You can use the coins GET call `/coins/{id}`.
 - Display a spinner while the user is waiting for the results
 - Display its most relevant data to the user (i.e. logo, marketcap rank, name, current USD price, symbol, 24h percentual price change). You can use a table or any other data display component you find easier.
