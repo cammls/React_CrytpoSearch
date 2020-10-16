@@ -9,3 +9,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+span {
+  font-weight: 600
+}
+
+.positive {
+  color:green;
+}
+.negative {
+  color:red
+}
+
+.content {
+  background-color: #F7F7F7;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.container {
+  margin: 20px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}

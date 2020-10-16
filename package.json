@@ -12,13 +12,21 @@
     "release": "(export REACT_APP_SENTRY_RELEASE=$(git rev-parse --short HEAD); react-scripts build && node scripts/sentry.js)"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/react-loader-spinner": "^3.1.1",
+    "@types/recharts": "^1.8.16",
+    "axios": "^0.20.0",
+    "classnames": "^2.2.6",
     "history": "^5.0.0",
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.13.1",
+    "react-loader-spinner": "^3.1.14",
     "react-router": "^6.0.0-beta.0",
     "react-router-dom": "^6.0.0-beta.0",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^3.4.3",
+    "recharts": "^1.8.5"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
